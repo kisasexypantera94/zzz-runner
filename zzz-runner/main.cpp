@@ -299,7 +299,7 @@ int main(int, char const**) {
                 game_over.setFillColor(sf::Color::Red);
                 game_over.setCharacterSize(18);
                 game_over.setStyle(sf::Text::Bold);
-                game_over.setString("TI PROEBAL");
+                game_over.setString("TI PROIGRAL");
                 game_over.setPosition(100, 120);
 
                 window.clear(sf::Color::Black);
