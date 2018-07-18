@@ -242,7 +242,7 @@ int main(int, char const**) {
                 clouds[i].second = distr4(generator);
             }
 
-            clouds[i].first += 0.03 * time;
+            clouds[i].first += (offset_x ? 0.04 * time : 0);
 
             s_cloud.setPosition(clouds[i].first - offset_x,
                                 clouds[i].second - offset_y);
